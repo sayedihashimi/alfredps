@@ -36,7 +36,7 @@ function Initalize{
     process{
         EnsurePsbuildInstlled
         # load pester
-        Import-Pester
+        Import-Pester -pesterVersion '3.3.8'
     }
 }
 
